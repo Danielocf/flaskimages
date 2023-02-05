@@ -9,4 +9,7 @@ COPY . .
 
 EXPOSE 5000
 
-ENTRYPOINT [ "python3", "/app/entry_point.py"]
+WORKDIR /app/FlaskDeCero
+
+
+ENTRYPOINT [ "python3", "/app/FlaskDeCero/entry_point.py"]
