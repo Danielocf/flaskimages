@@ -1,0 +1,80 @@
+body{
+
+    background-color: #000000ed;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    background-image: url(https://caracoltv.brightspotcdn.com/dims4/default/845936c/2147483647/strip/true/crop/714x720+0+0/resize/714x720!/quality/90/?url=http%3A%2F%2Fcaracol-brightspot.s3.amazonaws.com%2Fd3%2Feb%2Fd15f5a324b379a20a9a9eb9d23f6%2Fwhatsapp-image-2021-11-26-at-2.02.10%20PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p1{
+    
+        font-size: 20px;
+        font-weight: 800;
+        color: #0c04df;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-decoration-style: solid;
+
+
+}
+
+p{
+        
+            font-size: 30px;
+            font-weight: bold;
+            color: #316cec;
+            text-align: left;
+            
+}
+h1{
+    
+        font-size: 20px;
+        font-weight: 800;
+        color: #3e64f9;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+}
+a{
+    color: #5508ef;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: overline underline;
+    text-decoration-style: solid ;
+    text-decoration-thickness: 3px;
+    
+}
+
+table {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: left  ;
+    width: 60%;
+    border-collapse: collapse;
+    font-weight: 600;
+}
+
+th{
+    border: 1px solid rgb(239, 239, 239);
+    text-align: left;
+    width: 35%;
+    background-color: #2952e9df;
+    font-size: 20px;
+}
+
+td{
+    border: 1px solid rgb(32, 6, 227);
+    text-align: center;
+    width: 35%;
+    font-size: 20px;
+    background-color: #f9f9f9;
+
+}
+

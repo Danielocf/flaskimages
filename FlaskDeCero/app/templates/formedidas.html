@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}NPC{% endblock %}
+
+{% block content %}
+<form action="{{ url_for('med.formmed') }}" method="post">
+    <p>ID: <input type="text" name="id" /></p>
+    <p>Peso (kg): <input type="text" name="peso_en_kg" /></p>
+    <p>Altura (cm): <input type="text" name="altura_en_cm" /></p>
+    <p>Edad: <input type="text" name="edad" /></p>
+    <p>Nombre: <input type="text" name="nombre" /></p>
+    <p><input type="submit" value="Enviar" /></p>
+</form>
+{% endblock %}
+
+
+    
+
+
+
+    

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}NPC{% endblock %}
+
+
+{% block content %}
+  <table>
+    <tr>
+      <th>Id</th>
+      <th>Nombre</th>
+      <th>Genero</th>
+    </tr>
+  
+    {% for Usuario in Usuarios %}
+          
+    <tr>
+      <td>{{ Usuario.id }}</td>
+      <td>{{ Usuario.nombre}}</td>
+      <td>{{ Usuario.genero }}</td>
+      
+    </tr>
+          
+    {% endfor %}
+  </table>
+  <button onclick="window.location.href = 'http://127.0.0.1:5000/medidas' ;">ACCESO A MEDIDAS</button>
+{% endblock %}

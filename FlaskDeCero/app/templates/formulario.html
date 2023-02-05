@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}NPC{% endblock %}
+
+
+{% block content %}
+<form action="{{ url_for('routes.formusu') }}" method="post">
+    <p>Nombre: <input type="text" name="nombre" /></p>
+    <p>Genero: <input type="text" name="genero" /></p>
+    <p><input type="submit" value="Enviar" /></p>
+</form>
+{% endblock %}

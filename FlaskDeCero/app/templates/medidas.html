@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}NPC{% endblock %}
+
+{% block content %}
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Peso_en_kg</th>
+            <th>Altura_en_cm</th>
+            <th>Edad</th>
+            <th>Nombre</th>
+        </tr>
+        {% for medida in medidas %}
+            
+        <tr>
+            <td>{{ medida.id }}</td>
+            <td>{{ medida.peso_en_kg}}</td>
+            <td>{{ medida.altura_en_cm }}</td>
+            <td>{{ medida.edad }}</td>
+            <td>{{ medida.nombre }}</td>
+        </tr>
+            
+        {% endfor %}
+    </table>
+    <button onclick="window.location.href = 'http://127.0.0.1:5000/formedidas' ;">AÑADIR MEDIDAS</button>
+    <button onclick="window.location.href = 'http://127.0.0.1:5000' ;">VOLVER A INICIO</button>
+{% endblock %}
